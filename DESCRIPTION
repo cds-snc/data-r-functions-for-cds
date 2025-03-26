@@ -1,0 +1,30 @@
+Package: cds
+Type: Package
+Title: R Functions for the Canadian Digital Service
+Version: 0.1.0
+Authors@R: c(
+  person(
+    given = "Colin", family = "Douglas", 
+    role = c("aut", "cre", "med"),
+    email = "colin.douglas@cds-snc.ca",
+    comment = c(ORCID = "0000-0002-6639-006X")),
+  person(
+  "Canadian Digital Service – Service numérique canadien",
+    role = c("cph"))
+   )
+Description: Convenience functions to make producing CDS-style analyses easier.
+License: MIT + file LICENSE
+Imports: 
+    ggplot2 (>= 3.5.0),
+    extrafont (>= 0.19),
+    stringr (>= 1.5.0),
+    stringi (>= 1.8.0)
+Depends: 
+    R (>= 4.0)
+Suggests: 
+    testthat (>= 3.0),
+    fuzzyjoin (>= 0.1.6)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Config/testthat/edition: 3
