@@ -3,11 +3,11 @@ library(tidyverse)
 # Occasionally, we run into a name that isn't able to be matched automatically.
 # These are typically things like:
 # * Non-standard acronyms (e.g., NRCan for Natural Resources Canada)
-# * Common misspellings that are too distant for fuzzy matching 
+# * Common misspellings that are too distant for fuzzy matching
 # * True mysteries where it just needs to work (e.g., 'treasy' for TBS??)
 
 # In this script, we just manually set them, without much worry about whether
-# it will be reproducible. 
+# it will be reproducible.
 
 
 missing_identifier <- "001I9000005Ho3zIAC" # "Department not listed"
@@ -47,7 +47,7 @@ leftovers_gcforms_demos <- tribble(
 ) %>%
   mutate(
     source = "Airtable/GC Forms",
-    identifier = normalize_names(identifier)
+    identifier = normalize_name(identifier)
   )
 
 
@@ -76,7 +76,7 @@ leftovers_gcforms_forms <- tribble(
 ) %>%
   mutate(
     source = "Airtable/GC Forms",
-    identifier = normalize_names(identifier)
+    identifier = normalize_name(identifier)
   )
 
 orgs <- bind_rows(orgs, leftovers_gcforms_demos, leftovers_gcforms_forms)
@@ -88,7 +88,7 @@ orgs <- bind_rows(orgs, leftovers_gcforms_demos, leftovers_gcforms_forms)
 leftovers_gcds <- tribble(
   ~ identifier, ~ resolves_to,
   "Ship-source Oil Pollution Fund", missing_identifier,
-  "City of Vancouver", missing_identifier, 
+  "City of Vancouver", missing_identifier,
   "\"Innovation, Science and Economic Development Canada\"", "001I9000004Vt5zIAC",
   "\"Immigration, Refugees and Citizenship Canada\"", "001I9000004Vt5wIAC",
   "External to government", missing_identifier,
@@ -102,7 +102,7 @@ leftovers_gcds <- tribble(
 ) %>%
   mutate(
     source = "Airtable/GC Design System",
-    identifier = normalize_names(identifier)
+    identifier = normalize_name(identifier)
   )
 
 orgs <- bind_rows(orgs, leftovers_gcds)
@@ -161,7 +161,7 @@ leftovers_enterprise <- tribble(
 ) %>%
   mutate(
     source = "Airtable/Enterprise",
-    identifier = normalize_names(identifier)
+    identifier = normalize_name(identifier)
   )
 
 

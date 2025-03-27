@@ -14,13 +14,14 @@ orgs_pay_path <- "data-raw/organisation-resolution/data/orgs-pay.csv"
 orgs_pay <- read_csv(
   orgs_pay_path,
   col_types = cols(
+    cmt_code = col_character(),
     cmt_name = col_character(),
     phoenix_name = col_character(),
     official_en = col_character(),
     official_fr = col_character(),
   )
 ) %>%
-  mutate(across(c(cmt_name, phoenix_name, official_en, official_fr), normalize_names))
+  mutate(across(c(cmt_code, cmt_name, phoenix_name, official_en, official_fr), normalize_name))
 
 # We use a fuzzy join to link the official names of an organization (determined
 # 01_get_identifiers-CDS.R) and match those up with the official EN name
@@ -37,7 +38,7 @@ orgs_en_long <- stringdist_inner_join(
   method = "osa",
   max_dist = 2
 ) %>%
-  select(cmt_name, phoenix_name, official_en, official_fr, identifier, resolves_to) %>%
+  select(cmt_code, cmt_name, phoenix_name, official_en, official_fr, identifier, resolves_to) %>%
   pivot_longer(cols = c(everything(), -resolves_to), values_to = "identifier") %>%
   rename(source = name)
 
@@ -49,7 +50,7 @@ orgs_fr_long <- stringdist_inner_join(
   method = "osa",
   max_dist = 2
 ) %>%
-  select(cmt_name, phoenix_name, official_en, official_fr, identifier, resolves_to) %>%
+  select(cmt_code, cmt_name, phoenix_name, official_en, official_fr, identifier, resolves_to) %>%
   pivot_longer(cols = c(everything(), -resolves_to), values_to = "identifier") %>%
   rename(source = name)
 
@@ -110,11 +111,11 @@ leftovers <- tribble(
   "Western Economic Diversification Canada", missing_identifier
 )
 
-leftovers$identifier <- normalize_names(leftovers$identifier)
+leftovers$identifier <- normalize_name(leftovers$identifier)
 
 orgs_leftovers_long <- leftovers %>%
   left_join(orgs_pay, by = c("identifier" = "official_en")) %>%
-  select(cmt_name, phoenix_name, identifier, official_fr, identifier, resolves_to) %>%
+  select(cmt_code, cmt_name, phoenix_name, identifier, official_fr, identifier, resolves_to) %>%
   pivot_longer(cols = c(everything(), -resolves_to), values_to = "identifier") %>%
   rename(source = name)
 # Combine the three tables (EN matches, FR matches, and manual matches) and then
@@ -127,6 +128,7 @@ orgs <- bind_rows(
   orgs_leftovers_long
 ) %>%
   mutate(source = case_when(
+    source == "cmt_code" ~ "Pay Names/CMT",
     source == "official_en" ~ "Pay Names/Official/EN",
     source == "official_fr" ~ "Pay Names/Official/FR",
     source == "identifier" ~ "Pay Names/Official/EN",
