@@ -1,0 +1,400 @@
+﻿identifier,id,name_en,name_fr
+PS,001I9000004Vt6CIAS,Public Safety Canada,Sécurité publique Canada
+ECCC,001I9000004Vt5pIAC,Environment and Climate Change Canada,Environnement et Changement climatique Canada
+TC,001I9000004Vt6JIAS,Transport Canada,Transports Canada
+GAC,001I9000004Vt5tIAC,Global Affairs Canada,Affaires mondiales Canada
+ISC,001I9000005HqRoIAK,Indigenous Services Canada & Crown-Indigenous Relations and Northern Affairs Canada,Affaires autochtones et du Nord Canada
+ESDC,001I9000004Vt5oIAC,Employment and Social Development Canada,Emploi et Développement social Canada
+TBS,001I9000004Vt6KIAS,Treasury Board of Canada Secretariat,Secrétariat du Conseil du Trésor du Canada
+CSA,001I9000004Vt5iIAC,Canadian Space Agency,Agence spatiale canadienne
+FCAC,001I900000503tyIAA,Financial Consumer Agency of Canada,Agence de la consommation en matière financière du Canada
+DND,001I9000004Vt61IAC,National Defence,Défense nationale et les Forces armées canadiennes
+CRA,001I9000004Vt5ZIAS,Canada Revenue Agency,Agence du revenu du Canada
+PSPC,001I9000004Vt6EIAS,Public Services and Procurement Canada,Services publics et Approvisionnement Canada
+PCO,001I9000004Vt69IAC,Privy Council Office,Bureau du Conseil privé
+HC,001I9000004Vt5uIAC,Health Canada,Santé Canada
+PCH,001I9000004Vt5dIAC,Canadian Heritage,Patrimoine canadien
+FIN,001I9000004Vt5lIAC,Department of Finance Canada,Ministère des Finances Canada
+CBSA,001I9000004Vt5XIAS,Canada Border Services Agency,Agence des services frontaliers du Canada
+PHAC,001I9000004Vt6AIAS,Public Health Agency of Canada,Agence de la santé publique du Canada
+IRCC,001I9000004Vt5wIAC,"Immigration, Refugees and Citizenship Canada","Immigration, Réfugiés et Citoyenneté Canada"
+RCMP,001I9000004Vt6GIAS,Royal Canadian Mounted Police,Gendarmerie royale du Canada
+JUS,001I9000004Vt5mIAC,Department of Justice Canada,Ministère de la Justice Canada
+NRCan,001I9000004Vt63IAC,Natural Resources Canada,Ressources naturelles Canada
+ISED,001I9000004Vt5zIAC,"Innovation, Science and Economic Development Canada","Innovation, Sciences et Développement économique Canada"
+CRTC,001I9000004Vt5hIAC,Canadian Radio-television and Telecommunications Commission,Conseil de la radiodiffusion et des télécommunications canadiennes
+CIPO,001I90000050aK9IAI,Canadian Intellectual Property Office,Office de la propriété intellectuelle du Canada
+NRC,001I9000004Vt62IAC,National Research Council Canada,Conseil national de recherches Canada
+CATSA,001I90000050b2KIAQ,Canadian Air Transport Security Authority,L’Administration canadienne de la sûreté du transport aérien
+VAC,001I9000004Vt6LIAS,Veterans Affairs Canada,Anciens combattants Canada
+LAC,001I9000004Vt60IAC,Library and Archives Canada,Bibliothèque et Archives Canada
+StatCan,001I9000004Vt6IIAS,Statistics Canada,Statistique Canada
+PC,001I9000004Vt69IAC,Privy Council Office,Bureau du Conseil privé
+PBC,001I900000504ZTIAY,Parole Board of Canada,Commission des libérations conditionnelles du Canada
+AAFC,001I9000004pwojIAA,Agriculture and Agri Food Canada,Agriculture et Agroalimentaire Canada
+PSC,001I9000004Vt6DIAS,Public Service Commission of Canada,Commission de la fonction publique du Canada
+Atlantic Canada Opportunities Agency / Agence de promotion économique du Canada atlantique,001I9000004Vt5WIAS,Atlantic Canada Opportunities Agency,Agence de promotion économique du Canada atlantique
+Agriculture and Agri-Food Canada / Agriculture et Agroalimentaire Canada,001I9000004pwojIAA,Agriculture and Agri Food Canada,Agriculture et Agroalimentaire Canada
+Public Health Agency of Canada / Agence de la santé publique,001I9000004Vt6AIAS,Public Health Agency of Canada,Agence de la santé publique du Canada
+Canadian Transportation Agency / Office des transports du Canada,001I900000503r9IAA,Canadian Transportation Agency,Office des transports du Canada
+Administrative Tribunals Support Service of Canada / Service canadien d'appui aux tribunaux administratifs,001I9000005DbtMIAS,Administrative Tribunals Support Service of Canada,Service canadien d’appui aux tribunaux administratifs
+Office of the Auditor General of Canada / Bureau du vérificateur général du Canada,001I900000503zhIAA,Office of the Auditor General,Le Bureau du vérificateur général du Canada
+Veterans Review and Appeal Board / Tribunal des anciens combattants (révision et appel),001I900000505KfIAI,Veterans Review and Appeal Board,Tribunal des anciens combattants révision et appel
+Library and Archives Canada / Bibliothèque et Archives Canada,001I9000004Vt60IAC,Library and Archives Canada,Bibliothèque et Archives Canada
+Canadian International Trade Tribunal / Tribunal canadien du commerce extérieur,001I9000005SgSOIA0,Canadian International Trade Tribunal,Tribunal canadien du commerce extérieur
+Canada Border Services Agency / Agence des services frontaliers du Canada,001I9000004Vt5XIAS,Canada Border Services Agency,Agence des services frontaliers du Canada
+Courts Administration Service / Service administratif des tribunaux judiciaires,001I9000004Vt5kIAC,Courts Administration Service,Service administratif des tribunaux judiciaires
+Parks Canada / Parcs Canada,001I9000004Vt67IAC,Parks Canada,Parcs Canada
+Accessibility Standards Canada / Normes d’accessibilité Canada,001I9000004zOqhIAE,Accessibility Standards Canada,Normes d'accessibilité Canada
+Canadian Dairy Commission  / La Commission canadienne du lait,001I9000005064zIAA,Canadian Dairy Commission,Commission canadienne du lait
+Elections Canada / Élections Canada,001I9000004Vt5nIAC,Elections Canada,Élections Canada
+Canada School of the Public Service / École de la fonction publique du Canada,001I9000004Vt5aIAC,Canada School of Public Service,École de la fonction publique du Canada
+Financial Transactions and Reports Analysis Centre of Canada / Centre d'analyse des opérations et déclarations financières du Canada,001I9000004Vt5rIAC,Financial Transactions and Reports Analysis Centre of Canada,Centre d'analyse des opérations et déclarations financières du Canada
+Canadian Grain Commission / Commission canadienne des grains,001I9000004Vt5cIAC,Canadian Grain Commission,Commission canadienne des grains
+Canadian High Arctic Research Station / Station canadienne de recherche dans l'Extrême-Arctique,001I9000005X2mZIAS,Polar Knowledge Canada,Savoir polaire Canada
+Canadian Intergovernmental Conference Secretariat / Secrétariat des conférences intergouvernementales canadiennes,001OO00000IclDKYAZ,Canadian Intergovernmental Conference Secretariat,Secrétariat des conférences intergouvernementales canadiennes
+Office of the Commissioner of Official Languages / Commissariat aux langues officielles,001I9000004Vt66IAC,Office of the Commissioner of Official Languages,Commissariat aux langues officielles
+Copyright Board of Canada / Commission du droit d'auteur,001I900000503tPIAQ,Copyright Board Canada,Commission du droit d'auteur du Canada
+Military Police Complaints Commission of Canada / Commission d'examen des plaintes concernant la police militaire du Canada,001OO00000K0yNHYAZ,Military Police Complaints Commission of Canada,Commission d'examen des plaintes concernant la police militaire du Canada
+Canadian Institutes of Health Research / Instituts de recherche en santé du Canada,001I900000503mHIAQ,Canadian Institutes of Health Research,Instituts de recherche en santé du Canada
+Canadian Space Agency / Agence spatiale canadienne,001I9000004Vt5iIAC,Canadian Space Agency,Agence spatiale canadienne
+Employment and Social Development Canada / Emploi et Développement social Canada,001I9000004Vt5oIAC,Employment and Social Development Canada,Emploi et Développement social Canada
+Communications Security Establishment Canada / Centre de la sécurité des télécommunications Canada,001I9000004zLveIAE,Communications Security Establishment Canada,Centre de la sécurité des télécommunications Canada
+Canadian Security Intelligence Service / Service canadien du renseignement de sécurité,001I90000050a3fIAA,Canadian Security Intelligence Service,Service canadien du renseignement de sécurité
+Canadian Nuclear Safety Commission / Commission canadienne de sécurité nucléaire,001I9000004Vt5gIAC,Canadian Nuclear Safety Commission,Commission canadienne de sûreté nucléaire
+Status of Women Canada / Condition féminine Canada,001I9000004zOAzIAM,Women and Gender Equality Canada,Femmes et Égalité des genres Canada
+Fisheries and Oceans Canada / Ministères des Pêches et Océans,001I9000004Vt5sIAC,Fisheries and Oceans Canada,Pêches et Océans Canada
+Indigenous Services Canada / Services aux autochtones Canada,001I900000504eXIAQ,Indigenous Services Canada,Services aux Autochtones Canada
+Department of National Defence / Défense nationale et les Forces canadiennes,001I9000004Vt61IAC,National Defence,Défense nationale et les Forces armées canadiennes
+Environment and Climate Change Canada / Environnement et Changement climatique Canada,001I9000004Vt5pIAC,Environment and Climate Change Canada,Environnement et Changement climatique Canada
+"Innovation, Science and Economic Development Canada / Innovation, Sciences et Développement économique Canada",001I9000004Vt5zIAC,"Innovation, Science and Economic Development Canada","Innovation, Sciences et Développement économique Canada"
+Veterans Affairs Canada / Ministère des Affaires des anciens combattants,001I9000004Vt6LIAS,Veterans Affairs Canada,Anciens combattants Canada
+Impact Assessment Agency of Canada / Agence d’évaluation d’impact du Canada,001I9000005DbFCIA0,Impact Assessment Agency of Canada,Agence d’évaluation d’impact du Canada
+National Energy Board / Office national de l'énergie,001I9000005tFjAIAU,Canada Energy Regulator,Régie de l'énergie du Canada
+Federal Economic Development Agency for Southern Ontario / Agence fédérale de développement économique pour le Sud de l'Ontario,001I90000050b0nIAA,Federal Economic Development Agency for Southern Ontario,Agence fédérale de développement économique pour le Sud de l'Ontario
+Global Affairs Canada / Affaires mondiales Canada,001I9000004Vt5tIAC,Global Affairs Canada,Affaires mondiales Canada
+Military Grievances External Review Committee / Comité externe d'examen des griefs militaires,001I9000005PIWlIAO,Military Grievances External Review Committee,Comité externe d’examen des griefs militaires
+Department of Finance Canada / Ministères des Finances,001I9000004Vt5lIAC,Department of Finance Canada,Ministère des Finances Canada
+Financial Consumer Agency of Canada / Agence de la consommation en matière financière du Canada,001I900000503tyIAA,Financial Consumer Agency of Canada,Agence de la consommation en matière financière du Canada
+Economic Development Agency of Canada for the Regions of Québec / Agence de développement économique du Canada pour les régions du Québec,001I9000004Vt5YIAS,Canada Economic Development for Quebec Regions,Développement économique Canada pour les régions du Québec
+Office of the Secretary to the Governor General / Bureau du secrétaire du gouverneur général,001OO00000AhiwAYAR,Office of the Secretary to the Governor General,Bureau du secrétaire du gouverneur général
+Shared Services Canada / Services partagés Canada,001I9000004Vt6HIAS,Shared Services Canada,Services partagés Canada
+Canadian Human Rights Commission / Commission canadienne des droits de la personne,001I9000004Vt5eIAC,Canadian Human Rights Commission,Commission canadienne des droits de la personne
+Crown-Indigenous Relations and Northern Affairs Canada / Relations Couronne-Autochtones et des Affaires du Nord,001I9000004Vt5xIAC,Crown-Indigenous Relations and Northern Affairs Canada,Relations Couronne-Autochtones et Affaires du Nord Canada
+Canadian Food Inspection Agency / Agence canadienne d'inspection des aliments,001I9000004Vt5bIAC,Canadian Food Inspection Agency,Agence canadienne d'inspection des aliments
+"Immigration, Refugees and Citizenship Canada / Immigration, Réfugiés et Citoyenneté Canada",001I9000004Vt5wIAC,"Immigration, Refugees and Citizenship Canada","Immigration, Réfugiés et Citoyenneté Canada"
+Infrastructure Canada / Infrastructure Canada,001I9000004Vt5yIAC,Infrastructure Canada,Infrastructure Canada
+Office of the Public Sector Integrity Commissioner of Canada / Commissariat à l'intégrité du secteur public du Canada,001OO00000HzMoJYAV,Office of the Public Sector Integrity Commissioner of Canada,Commissariat à l'intégrité du secteur public du Canada
+Immigration and Refugee Board / Commission de l'immigration et du statut de réfugié du Canada,001I9000004Vt5vIAC,Immigration and Refugee Board of Canada,Commission de l'immigration et du statut de réfugié du Canada
+Department of Justice / Ministère de la Justice,001I9000004Vt5mIAC,Department of Justice Canada,Ministère de la Justice Canada
+Office of the Commissioner of Lobbying of Canada / Commissariat au lobbying du Canada,001I9000004Vt65IAC,Office of the Commissioner of Lobbying of Canada,Commissariat au lobbying du Canada
+Transport Canada / Transports Canada,001I9000004Vt6JIAS,Transport Canada,Transports Canada
+Canada Revenue Agency / Agence du revenu du Canada,001I9000004Vt5ZIAS,Canada Revenue Agency,Agence du revenu du Canada
+The National Battlefields Commission / Commission des champs de bataille nationaux,001I9000005X2DjIAK,The National Battlefields Commission,Commission des champs de bataille nationaux
+Canadian Northern Economic Development Agency / Agence canadienne de développement économique du Nord,001I9000004Vt5fIAC,Canadian Northern Economic Development Agency,Agence canadienne de développement économique du Nord
+National Film Board / L'office national du film du Canada,001I900000503gTIAQ,National Film Board,L'office National Du Film Du Canada
+Health Canada / Santé Canada,001I9000004Vt5uIAC,Health Canada,Santé Canada
+Federal Economic Development Agency for Northern Ontario / Agence fédérale de développement économique pour le Nord de l’Ontario,001OO00000II3I2YAL,Federal Economic Development Agency for Northern Ontario,Agence fédérale de développement économique pour le Nord de l’Ontario
+National Parole Board / Commission des libérations conditionnelles du Canada,001I900000504ZTIAY,Parole Board of Canada,Commission des libérations conditionnelles du Canada
+National Security and Intelligence Review Agency / Office de surveillance des activités en matière de sécurité nationale et de renseignement,001OO00000GgHJNYA3,National Security and Intelligence Review Agency,Office de surveillance des activités en matière de sécurité nationale et de renseignement
+National Research Council Canada / Conseil national de recherches Canada,001I9000004Vt62IAC,National Research Council Canada,Conseil national de recherches Canada
+Science and Engineering Research Canada / Recherches en sciences et en génie Canada,001I9000004Vt64IAC,Natural Sciences and Engineering Research Council of Canada,Conseil de recherches en sciences naturelles et en génie du Canada
+Secretariat of the National Security and Intelligence Committee of Parliamentarians / Secrétariat du Comité des parlementaires sur la sécurité nationale et le renseignement,001OO00000Gg8ZWYAZ,Secretariat of the National Security and Intelligence Committee of Parliamentarians,Secrétariat du Comité des parlementaires sur la sécurité nationale et le renseignement
+Canadian Centre for Occupational Health and Safety / Centre canadien d'hygiène et de sécurité au travail,001I900000503ncIAA,Canadian Centre for Occupational Health and Safety,Centre canadien d'hygiène et de sécurité au travail
+Office of the Intelligence Commissioner / Bureau du commissaire au renseignement,001OO00000GgH3GYAV,Office of the Intelligence Commissioner,Bureau du commissaire au renseignement
+Canad. Secutity Intl. Service / Service can. renseign sécurit,001I9000004Vt6CIAS,Public Safety Canada,Sécurité publique Canada
+Department of Canadian Heritage / Patrimoine canadien,001I9000004Vt5dIAC,Canadian Heritage,Patrimoine canadien
+Privy Council Office / Bureau du Conseil privé,001I9000004Vt69IAC,Privy Council Office,Bureau du Conseil privé
+Correctional Services Canada / Service correctionnel du Canada,001I900000503m9IAA,Correctional Service Canada,Service correctionnel Canada
+Canadian Polar Commission / Commission affaires polaires,001I9000005X2mZIAS,Polar Knowledge Canada,Savoir polaire Canada
+Office of the Director of Public Prosecutions / Bureau du directeur des poursuites pénales,001I9000004Vt6BIAS,Public Prosecution Service of Canada,Service des poursuites pénales du Canada
+Public Prosecution Service of Canada / Service des poursuites pénales du Canada,001I9000004Vt6BIAS,Public Prosecution Service of Canada,Service des poursuites pénales du Canada
+Public Service Commission / Commission de la fonction publique,001I9000004Vt6DIAS,Public Service Commission of Canada,Commission de la fonction publique du Canada
+Public Safety / Sécurité Publique,001I9000004Vt6CIAS,Public Safety Canada,Sécurité publique Canada
+Canadian Human Rights Tribunal / Tribunal droits de la personne,001I9000004Vt5eIAC,Canadian Human Rights Commission,Commission canadienne des droits de la personne
+Patented Medicine Prices Review Board / Conseil d’examen du prix des médicaments brevetés,001OO000006vSnJYAU,Patented Medicine Prices Review Board Canada,Conseil d'examen du prix des médicaments brevetés
+Royal Canadian Mounted Police / Gendarmerie royale du Canada,001I9000004Vt6GIAS,Royal Canadian Mounted Police,Gendarmerie royale du Canada
+Civilian Review and Complaints Commission for the RCMP / Commission civile d'examen et de traitement des plaintes relatives à la Gendarmerie royale du Canada,001OO000006vJNYYA2,Civilian Review and Complaints Commission for the RCMP,Commission civile d’examen et de traitement des plaintes relatives à la Gendarmerie royale du Canada
+Natural Resources Canada / Ressources naturelles Canada,001I9000004Vt63IAC,Natural Resources Canada,Ressources naturelles Canada
+Canadian Radio-Television and Telecommunications Commission / Conseil de la radio diffusion et des télécommunications canadienne,001I9000004Vt5hIAC,Canadian Radio-television and Telecommunications Commission,Conseil de la radiodiffusion et des télécommunications canadiennes
+Office of the Superintendent of Financial Institutions Canada / Bureau du surintendant des institutions financières Canada,001I9000005DXSKIA4,Office of the Superintendent of Financial Institutions,Bureau du surintendant des institutions financières
+Office of the Communications Security Establishment Commissioner / Bureau du commissaire du Centre de la sécurité des télécommunications,001OO00000GgH3GYAV,Office of the Intelligence Commissioner,Bureau du commissaire au renseignement
+Social Sciences and Humanities Research Council of Canada / Conseil de recherches en sciences humaines du Canada,001I900000503tgIAA,Social Sciences and Humanities Research Council,Conseil de recherches en sciences humaines
+Statistics Canada / Statistique Canada,001I9000004Vt6IIAS,Statistics Canada,Statistique Canada
+Public Services and Procurement Canada / Services publics et Approvisionnement Canada,001I9000004Vt6EIAS,Public Services and Procurement Canada,Services publics et Approvisionnement Canada
+Treasury Board of Canada Secretariat / Secrétariat du Conseil du Trésor du Canada,001I9000004Vt6KIAS,Treasury Board of Canada Secretariat,Secrétariat du Conseil du Trésor du Canada
+Transportation Safety Board of Canada / Bureau de la sécurité des transports du Canada,001I90000050YtsIAE,Transportation Safety Board of Canada,Bureau de la sécurité des transports du Canada
+Women and Gender Equality Canada / Femmes et Égalité des genres Canada,001I9000004zOAzIAM,Women and Gender Equality Canada,Femmes et Égalité des genres Canada
+Atlantic Canada Opportunities Agency,001I9000004Vt5WIAS,Atlantic Canada Opportunities Agency,Agence de promotion économique du Canada atlantique
+Agriculture and Agri-Food Canada,001I9000004pwojIAA,Agriculture and Agri Food Canada,Agriculture et Agroalimentaire Canada
+Public Health Agency of Canada,001I9000004Vt6AIAS,Public Health Agency of Canada,Agence de la santé publique du Canada
+Canadian Transportation Agency,001I900000503r9IAA,Canadian Transportation Agency,Office des transports du Canada
+Administrative Tribunals Support Service of Canada,001I9000005DbtMIAS,Administrative Tribunals Support Service of Canada,Service canadien d’appui aux tribunaux administratifs
+Auditor General of Canada (Office of the),001I900000503zhIAA,Office of the Auditor General,Le Bureau du vérificateur général du Canada
+Veterans Review and Appeal Board,001I900000505KfIAI,Veterans Review and Appeal Board,Tribunal des anciens combattants révision et appel
+Library and Archives Canada,001I9000004Vt60IAC,Library and Archives Canada,Bibliothèque et Archives Canada
+Canadian International Trade Tribunal,001I9000005SgSOIA0,Canadian International Trade Tribunal,Tribunal canadien du commerce extérieur
+Canada Border Services Agency,001I9000004Vt5XIAS,Canada Border Services Agency,Agence des services frontaliers du Canada
+Courts Administration Service,001I9000004Vt5kIAC,Courts Administration Service,Service administratif des tribunaux judiciaires
+Parks Canada,001I9000004Vt67IAC,Parks Canada,Parcs Canada
+Accessibility Standards Canada,001I9000004zOqhIAE,Accessibility Standards Canada,Normes d'accessibilité Canada
+Canadian Dairy Commission,001I9000005064zIAA,Canadian Dairy Commission,Commission canadienne du lait
+Elections Canada,001I9000004Vt5nIAC,Elections Canada,Élections Canada
+Canada School of Public Service,001I9000004Vt5aIAC,Canada School of Public Service,École de la fonction publique du Canada
+Financial Transactions and Reports Analysis Centre of Canada,001I9000004Vt5rIAC,Financial Transactions and Reports Analysis Centre of Canada,Centre d'analyse des opérations et déclarations financières du Canada
+Canadian Grain Commission,001I9000004Vt5cIAC,Canadian Grain Commission,Commission canadienne des grains
+Polar Knowledge Canada,001I9000005X2mZIAS,Polar Knowledge Canada,Savoir polaire Canada
+Canadian Intergovernmental Conference Secretariat,001OO00000IclDKYAZ,Canadian Intergovernmental Conference Secretariat,Secrétariat des conférences intergouvernementales canadiennes
+Commissioner of Official Languages (Office of the),001I9000004Vt66IAC,Office of the Commissioner of Official Languages,Commissariat aux langues officielles
+Copyright Board Canada,001I900000503tPIAQ,Copyright Board Canada,Commission du droit d'auteur du Canada
+Military Police Complaints Commission of Canada,001OO00000K0yNHYAZ,Military Police Complaints Commission of Canada,Commission d'examen des plaintes concernant la police militaire du Canada
+Canadian Institutes of Health Research,001I900000503mHIAQ,Canadian Institutes of Health Research,Instituts de recherche en santé du Canada
+Canadian Space Agency,001I9000004Vt5iIAC,Canadian Space Agency,Agence spatiale canadienne
+Employment and Social Development Canada,001I9000004Vt5oIAC,Employment and Social Development Canada,Emploi et Développement social Canada
+Communications Security Establishment Canada,001I9000004zLveIAE,Communications Security Establishment Canada,Centre de la sécurité des télécommunications Canada
+Canadian Security Intelligence Service,001I90000050a3fIAA,Canadian Security Intelligence Service,Service canadien du renseignement de sécurité
+Canadian Nuclear Safety Commission,001I9000004Vt5gIAC,Canadian Nuclear Safety Commission,Commission canadienne de sûreté nucléaire
+Women and Gender Equality Canada,001I9000004zOAzIAM,Women and Gender Equality Canada,Femmes et Égalité des genres Canada
+Fisheries and Oceans Canada,001I9000004Vt5sIAC,Fisheries and Oceans Canada,Pêches et Océans Canada
+Indigenous Services Canada,001I900000504eXIAQ,Indigenous Services Canada,Services aux Autochtones Canada
+National Defence,001I9000004Vt61IAC,National Defence,Défense nationale et les Forces armées canadiennes
+Environment and Climate Change Canada ,001I9000004Vt5pIAC,Environment and Climate Change Canada,Environnement et Changement climatique Canada
+"Innovation, Science and Economic Development Canada ",001I9000004Vt5zIAC,"Innovation, Science and Economic Development Canada","Innovation, Sciences et Développement économique Canada"
+Veterans Affairs Canada,001I9000004Vt6LIAS,Veterans Affairs Canada,Anciens combattants Canada
+Impact Assessment Agency of Canada,001I9000005DbFCIA0,Impact Assessment Agency of Canada,Agence d’évaluation d’impact du Canada
+Canada Energy Regulator,001I9000005tFjAIAU,Canada Energy Regulator,Régie de l'énergie du Canada
+Federal Economic Development Agency for Southern Ontario,001I90000050b0nIAA,Federal Economic Development Agency for Southern Ontario,Agence fédérale de développement économique pour le Sud de l'Ontario
+Global Affairs Canada ,001I9000004Vt5tIAC,Global Affairs Canada,Affaires mondiales Canada
+Military Grievances External Review Committee,001I9000005PIWlIAO,Military Grievances External Review Committee,Comité externe d’examen des griefs militaires
+Finance Canada (Department of),001I9000004Vt5lIAC,Department of Finance Canada,Ministère des Finances Canada
+Financial Consumer Agency of Canada,001I900000503tyIAA,Financial Consumer Agency of Canada,Agence de la consommation en matière financière du Canada
+Canada Economic Development for Quebec Regions,001I9000004Vt5YIAS,Canada Economic Development for Quebec Regions,Développement économique Canada pour les régions du Québec
+Office of the Governor General's Secretary,001OO00000AhiwAYAR,Office of the Secretary to the Governor General,Bureau du secrétaire du gouverneur général
+Shared Services Canada,001I9000004Vt6HIAS,Shared Services Canada,Services partagés Canada
+Canadian Human Rights Commission,001I9000004Vt5eIAC,Canadian Human Rights Commission,Commission canadienne des droits de la personne
+Crown-Indigenous Relations and Northern Affairs Canada,001I9000004Vt5xIAC,Crown-Indigenous Relations and Northern Affairs Canada,Relations Couronne-Autochtones et Affaires du Nord Canada
+Canadian Food Inspection Agency,001I9000004Vt5bIAC,Canadian Food Inspection Agency,Agence canadienne d'inspection des aliments
+"Immigration, Refugees and Citizenship Canada ",001I9000004Vt5wIAC,"Immigration, Refugees and Citizenship Canada","Immigration, Réfugiés et Citoyenneté Canada"
+Infrastructure Canada,001I9000004Vt5yIAC,Infrastructure Canada,Infrastructure Canada
+Public Sector Integrity Commissioner of Canada (Office of the),001OO00000HzMoJYAV,Office of the Public Sector Integrity Commissioner of Canada,Commissariat à l'intégrité du secteur public du Canada
+Immigration and Refugee Board of Canada,001I9000004Vt5vIAC,Immigration and Refugee Board of Canada,Commission de l'immigration et du statut de réfugié du Canada
+Justice Canada (Department of),001I9000004Vt5mIAC,Department of Justice Canada,Ministère de la Justice Canada
+Commissioner of Lobbying of Canada (Office of the),001I9000004Vt65IAC,Office of the Commissioner of Lobbying of Canada,Commissariat au lobbying du Canada
+Transport Canada,001I9000004Vt6JIAS,Transport Canada,Transports Canada
+Canada Revenue Agency,001I9000004Vt5ZIAS,Canada Revenue Agency,Agence du revenu du Canada
+National Battlefields Commission,001I9000005X2DjIAK,The National Battlefields Commission,Commission des champs de bataille nationaux
+Canadian Northern Economic Development Agency,001I9000004Vt5fIAC,Canadian Northern Economic Development Agency,Agence canadienne de développement économique du Nord
+National Film Board,001I900000503gTIAQ,National Film Board,L'office National Du Film Du Canada
+Health Canada,001I9000004Vt5uIAC,Health Canada,Santé Canada
+Federal Economic Development Agency for Northern Ontario,001OO00000II3I2YAL,Federal Economic Development Agency for Northern Ontario,Agence fédérale de développement économique pour le Nord de l’Ontario
+Parole Board of Canada,001I900000504ZTIAY,Parole Board of Canada,Commission des libérations conditionnelles du Canada
+National Security Intelligence Review Agency,001OO00000GgHJNYA3,National Security and Intelligence Review Agency,Office de surveillance des activités en matière de sécurité nationale et de renseignement
+National Research Council Canada,001I9000004Vt62IAC,National Research Council Canada,Conseil national de recherches Canada
+Natural Sciences and Engineering Research Canada,001I9000004Vt64IAC,Natural Sciences and Engineering Research Council of Canada,Conseil de recherches en sciences naturelles et en génie du Canada
+National Security and Intelligence Committee of Parliamentarians,001OO00000GgHJNYA3,National Security and Intelligence Review Agency,Office de surveillance des activités en matière de sécurité nationale et de renseignement
+Canadian Centre for Occupational Health and Safety,001I900000503ncIAA,Canadian Centre for Occupational Health and Safety,Centre canadien d'hygiène et de sécurité au travail
+Office of the Intelligence Commissioner,001OO00000GgH3GYAV,Office of the Intelligence Commissioner,Bureau du commissaire au renseignement
+Public Safety,001I9000004Vt6CIAS,Public Safety Canada,Sécurité publique Canada
+Canadian Heritage,001I9000004Vt5dIAC,Canadian Heritage,Patrimoine canadien
+Privy Council Office,001I9000004Vt69IAC,Privy Council Office,Bureau du Conseil privé
+Correctional Service Canada,001I900000503m9IAA,Correctional Service Canada,Service correctionnel Canada
+Canadian Polar Commission,001I9000005X2mZIAS,Polar Knowledge Canada,Savoir polaire Canada
+Public Prosecution Service of Canada,001I9000004Vt6BIAS,Public Prosecution Service of Canada,Service des poursuites pénales du Canada
+Public Service Commission of Canada,001I9000004Vt6DIAS,Public Service Commission of Canada,Commission de la fonction publique du Canada
+Public Safety Canada,001I9000004Vt6CIAS,Public Safety Canada,Sécurité publique Canada
+Canadian Human Rights Tribunal,001I9000004Vt5eIAC,Canadian Human Rights Commission,Commission canadienne des droits de la personne
+Patented Medicine Prices Review Board Canada,001OO000006vSnJYAU,Patented Medicine Prices Review Board Canada,Conseil d'examen du prix des médicaments brevetés
+Royal Canadian Mounted Police,001I9000004Vt6GIAS,Royal Canadian Mounted Police,Gendarmerie royale du Canada
+Civilian Review and Complaints Commission for the RCMP,001OO000006vJNYYA2,Civilian Review and Complaints Commission for the RCMP,Commission civile d’examen et de traitement des plaintes relatives à la Gendarmerie royale du Canada
+Natural Resources Canada,001I9000004Vt63IAC,Natural Resources Canada,Ressources naturelles Canada
+Canadian Radio-television and Telecommunications Commission,001I9000004Vt5hIAC,Canadian Radio-television and Telecommunications Commission,Conseil de la radiodiffusion et des télécommunications canadiennes
+Superintendent of Financial Institutions Canada (Office of the),001I9000005DXSKIA4,Office of the Superintendent of Financial Institutions,Bureau du surintendant des institutions financières
+Communications Security Establishment Commissioner (Office of the),001OO00000GgH3GYAV,Office of the Intelligence Commissioner,Bureau du commissaire au renseignement
+Social Sciences and Humanities Research Council,001I900000503tgIAA,Social Sciences and Humanities Research Council,Conseil de recherches en sciences humaines
+Statistics Canada,001I9000004Vt6IIAS,Statistics Canada,Statistique Canada
+Public Services and Procurement Canada ,001I9000004Vt6EIAS,Public Services and Procurement Canada,Services publics et Approvisionnement Canada
+Treasury Board of Canada Secretariat,001I9000004Vt6KIAS,Treasury Board of Canada Secretariat,Secrétariat du Conseil du Trésor du Canada
+Transportation Safety Board of Canada,001I90000050YtsIAE,Transportation Safety Board of Canada,Bureau de la sécurité des transports du Canada
+Agence de promotion économique du Canada atlantique,001I9000004Vt5WIAS,Atlantic Canada Opportunities Agency,Agence de promotion économique du Canada atlantique
+Agriculture et Agroalimentaire Canada,001I9000004pwojIAA,Agriculture and Agri Food Canada,Agriculture et Agroalimentaire Canada
+Agence de la santé publique du Canada,001I9000004Vt6AIAS,Public Health Agency of Canada,Agence de la santé publique du Canada
+Office des transports du Canada,001I900000503r9IAA,Canadian Transportation Agency,Office des transports du Canada
+Service canadien d’appui aux tribunaux administratifs,001I9000005DbtMIAS,Administrative Tribunals Support Service of Canada,Service canadien d’appui aux tribunaux administratifs
+Bureau du vérificateur général du Canada,001I900000503zhIAA,Office of the Auditor General,Le Bureau du vérificateur général du Canada
+Tribunal des anciens combattants (révision et appel),001I900000505KfIAI,Veterans Review and Appeal Board,Tribunal des anciens combattants révision et appel
+Bibliothèque et Archives Canada,001I9000004Vt60IAC,Library and Archives Canada,Bibliothèque et Archives Canada
+Tribunal canadien du commerce extérieur,001I9000005SgSOIA0,Canadian International Trade Tribunal,Tribunal canadien du commerce extérieur
+Agence des services frontaliers du Canada,001I9000004Vt5XIAS,Canada Border Services Agency,Agence des services frontaliers du Canada
+Service administratif des tribunaux judiciaires,001I9000004Vt5kIAC,Courts Administration Service,Service administratif des tribunaux judiciaires
+Parcs Canada,001I9000004Vt67IAC,Parks Canada,Parcs Canada
+Normes d’accessibilité Canada,001I9000004zOqhIAE,Accessibility Standards Canada,Normes d'accessibilité Canada
+Commission canadienne du lait,001I9000005064zIAA,Canadian Dairy Commission,Commission canadienne du lait
+Élections Canada,001I9000004Vt5nIAC,Elections Canada,Élections Canada
+École de la fonction publique du Canada,001I9000004Vt5aIAC,Canada School of Public Service,École de la fonction publique du Canada
+Centre d’analyse des opérations et déclarations financières du Canada,001I9000004Vt5rIAC,Financial Transactions and Reports Analysis Centre of Canada,Centre d'analyse des opérations et déclarations financières du Canada
+Commission canadienne des grains,001I9000004Vt5cIAC,Canadian Grain Commission,Commission canadienne des grains
+Savoir polaire Canada,001I9000005X2mZIAS,Polar Knowledge Canada,Savoir polaire Canada
+Secrétariat des conférences intergouvernementales canadiennes ,001OO00000IclDKYAZ,Canadian Intergovernmental Conference Secretariat,Secrétariat des conférences intergouvernementales canadiennes
+Commissariat aux langes officielles,001I9000004Vt66IAC,Office of the Commissioner of Official Languages,Commissariat aux langues officielles
+Commission du droit d'auteur Canada,001I900000503tPIAQ,Copyright Board Canada,Commission du droit d'auteur du Canada
+Commission d’examen des plaintes concernant la police militaire du Canada ,001OO00000K0yNHYAZ,Military Police Complaints Commission of Canada,Commission d'examen des plaintes concernant la police militaire du Canada
+Instituts de recherche en santé du Canada,001I900000503mHIAQ,Canadian Institutes of Health Research,Instituts de recherche en santé du Canada
+Agence spatiale canadienne,001I9000004Vt5iIAC,Canadian Space Agency,Agence spatiale canadienne
+Emploi et Développement social Canada,001I9000004Vt5oIAC,Employment and Social Development Canada,Emploi et Développement social Canada
+Centre de la sécurité des télécommunications Canada,001I9000004zLveIAE,Communications Security Establishment Canada,Centre de la sécurité des télécommunications Canada
+Service canadien du renseignement de sécurité,001I90000050a3fIAA,Canadian Security Intelligence Service,Service canadien du renseignement de sécurité
+Commission canadienne de sûreté nucléaire,001I9000004Vt5gIAC,Canadian Nuclear Safety Commission,Commission canadienne de sûreté nucléaire
+Femmes et Égalité des genres Canada,001I9000004zOAzIAM,Women and Gender Equality Canada,Femmes et Égalité des genres Canada
+Pêches et Océans Canada,001I9000004Vt5sIAC,Fisheries and Oceans Canada,Pêches et Océans Canada
+Services aux Autochtones Canada,001I900000504eXIAQ,Indigenous Services Canada,Services aux Autochtones Canada
+Défense nationale,001I9000004Vt61IAC,National Defence,Défense nationale et les Forces armées canadiennes
+ Environnement et Changement climatique Canada,001I9000004Vt5pIAC,Environment and Climate Change Canada,Environnement et Changement climatique Canada
+" Innovation, Sciences et Développement économique Canada",001I9000004Vt5zIAC,"Innovation, Science and Economic Development Canada","Innovation, Sciences et Développement économique Canada"
+Anciens Combattants Canada,001I9000004Vt6LIAS,Veterans Affairs Canada,Anciens combattants Canada
+Agence d'évaluation d'impact du Canada,001I9000005DbFCIA0,Impact Assessment Agency of Canada,Agence d’évaluation d’impact du Canada
+Régie de l’énergie du Canada,001I9000005tFjAIAU,Canada Energy Regulator,Régie de l'énergie du Canada
+Agence fédérale de développement économique pour le Sud de l’Ontario,001I90000050b0nIAA,Federal Economic Development Agency for Southern Ontario,Agence fédérale de développement économique pour le Sud de l'Ontario
+ Affaires mondiales Canada,001I9000004Vt5tIAC,Global Affairs Canada,Affaires mondiales Canada
+Comité externe d’examen des griefs militaires,001I9000005PIWlIAO,Military Grievances External Review Committee,Comité externe d’examen des griefs militaires
+"Finances Canada, Ministère des",001I9000004Vt5lIAC,Department of Finance Canada,Ministère des Finances Canada
+Agence de la consommation en matière financière du Canada,001I900000503tyIAA,Financial Consumer Agency of Canada,Agence de la consommation en matière financière du Canada
+Développement économique Canada pour les régions du Québec,001I9000004Vt5YIAS,Canada Economic Development for Quebec Regions,Développement économique Canada pour les régions du Québec
+Bureau du secrétaire du gouverneur général,001OO00000AhiwAYAR,Office of the Secretary to the Governor General,Bureau du secrétaire du gouverneur général
+Services partagés Canada,001I9000004Vt6HIAS,Shared Services Canada,Services partagés Canada
+Commission canadienne des droits de la personne,001I9000004Vt5eIAC,Canadian Human Rights Commission,Commission canadienne des droits de la personne
+Relations Couronne-Autochtones et Affaires du Nord Canada,001I9000004Vt5xIAC,Crown-Indigenous Relations and Northern Affairs Canada,Relations Couronne-Autochtones et Affaires du Nord Canada
+Agence canadienne d'inspection des aliments,001I9000004Vt5bIAC,Canadian Food Inspection Agency,Agence canadienne d'inspection des aliments
+" Immigration, Réfugiés et Citoyenneté Canada",001I9000004Vt5wIAC,"Immigration, Refugees and Citizenship Canada","Immigration, Réfugiés et Citoyenneté Canada"
+Commissariat à l'intégrité du secteur public du Canada,001OO00000HzMoJYAV,Office of the Public Sector Integrity Commissioner of Canada,Commissariat à l'intégrité du secteur public du Canada
+Commission de l'immigration et du statut de réfugié du Canada,001I9000004Vt5vIAC,Immigration and Refugee Board of Canada,Commission de l'immigration et du statut de réfugié du Canada
+"Justice Canada, Ministère de la",001I9000004Vt5mIAC,Department of Justice Canada,Ministère de la Justice Canada
+Commissariat au lobbying du Canada,001I9000004Vt65IAC,Office of the Commissioner of Lobbying of Canada,Commissariat au lobbying du Canada
+Transports Canada,001I9000004Vt6JIAS,Transport Canada,Transports Canada
+Agence du revenu du Canada,001I9000004Vt5ZIAS,Canada Revenue Agency,Agence du revenu du Canada
+Commission des champs de bataille nationnaux,001I9000005X2DjIAK,The National Battlefields Commission,Commission des champs de bataille nationaux
+Agence canadienne de développement économique du Nord,001I9000004Vt5fIAC,Canadian Northern Economic Development Agency,Agence canadienne de développement économique du Nord
+Office national du film,001I900000503gTIAQ,National Film Board,L'office National Du Film Du Canada
+Santé Canada,001I9000004Vt5uIAC,Health Canada,Santé Canada
+Agence fédérale de développement économique pour le Nord de l’Ontario,001OO00000II3I2YAL,Federal Economic Development Agency for Northern Ontario,Agence fédérale de développement économique pour le Nord de l’Ontario
+Commission des libérations conditionnelles du Canada,001I900000504ZTIAY,Parole Board of Canada,Commission des libérations conditionnelles du Canada
+Office de surveillance des activités en matière de sécurité nationale et de renseignement,001OO00000GgHJNYA3,National Security and Intelligence Review Agency,Office de surveillance des activités en matière de sécurité nationale et de renseignement
+Conseil national de recherches Canada,001I9000004Vt62IAC,National Research Council Canada,Conseil national de recherches Canada
+Conseil de recherches en sciences et en génie Canada,001I9000004Vt64IAC,Natural Sciences and Engineering Research Council of Canada,Conseil de recherches en sciences naturelles et en génie du Canada
+Comité des parlementaires sur la sécurité nationale et le renseignement,001OO00000GgHJNYA3,National Security and Intelligence Review Agency,Office de surveillance des activités en matière de sécurité nationale et de renseignement
+Centre canadien d'hygiène et de sécurité au travail,001I900000503ncIAA,Canadian Centre for Occupational Health and Safety,Centre canadien d'hygiène et de sécurité au travail
+Bureau du commissaire au renseignement,001OO00000GgH3GYAV,Office of the Intelligence Commissioner,Bureau du commissaire au renseignement
+Sécurité publique ,001I9000004Vt6CIAS,Public Safety Canada,Sécurité publique Canada
+Patrimoine canadien,001I9000004Vt5dIAC,Canadian Heritage,Patrimoine canadien
+Bureau du Conseil privé,001I9000004Vt69IAC,Privy Council Office,Bureau du Conseil privé
+Service correctionnel Canada,001I900000503m9IAA,Correctional Service Canada,Service correctionnel Canada
+Commission affaires polaires,001I9000005X2mZIAS,Polar Knowledge Canada,Savoir polaire Canada
+Service des poursuites pénales du Canada,001I9000004Vt6BIAS,Public Prosecution Service of Canada,Service des poursuites pénales du Canada
+Commission de la fonction publique du Canada,001I9000004Vt6DIAS,Public Service Commission of Canada,Commission de la fonction publique du Canada
+Sécurité publique Canada,001I9000004Vt6CIAS,Public Safety Canada,Sécurité publique Canada
+Tribunal canadien des droits de la personne,001I9000004Vt5eIAC,Canadian Human Rights Commission,Commission canadienne des droits de la personne
+Conseil d’examen du prix des médicaments brevetés,001OO000006vSnJYAU,Patented Medicine Prices Review Board Canada,Conseil d'examen du prix des médicaments brevetés
+Gendarmerie royale du Canada,001I9000004Vt6GIAS,Royal Canadian Mounted Police,Gendarmerie royale du Canada
+Commission civile d'examen et de traitement des plaintes relatives à la GRC,001OO000006vJNYYA2,Civilian Review and Complaints Commission for the RCMP,Commission civile d’examen et de traitement des plaintes relatives à la Gendarmerie royale du Canada
+Ressources naturelles Canada ,001I9000004Vt63IAC,Natural Resources Canada,Ressources naturelles Canada
+Conseil de la radiodiffusion et des télécommunications canadiennes,001I9000004Vt5hIAC,Canadian Radio-television and Telecommunications Commission,Conseil de la radiodiffusion et des télécommunications canadiennes
+Bureau du surintendant des institutions financières Canada,001I9000005DXSKIA4,Office of the Superintendent of Financial Institutions,Bureau du surintendant des institutions financières
+Bureau du commissaire du Centre de la sécurité des télécommunications,001OO00000GgH3GYAV,Office of the Intelligence Commissioner,Bureau du commissaire au renseignement
+Conseil de recherches en sciences humaines,001I900000503tgIAA,Social Sciences and Humanities Research Council,Conseil de recherches en sciences humaines
+Statistique Canada,001I9000004Vt6IIAS,Statistics Canada,Statistique Canada
+ Services publics et Approvisionnement Canada,001I9000004Vt6EIAS,Public Services and Procurement Canada,Services publics et Approvisionnement Canada
+Secrétariat du Conseil du Trésor du Canada,001I9000004Vt6KIAS,Treasury Board of Canada Secretariat,Secrétariat du Conseil du Trésor du Canada
+Bureau de la sécurité des transports du Canada,001I90000050YtsIAE,Transportation Safety Board of Canada,Bureau de la sécurité des transports du Canada
+Global Affairs Canada,001I9000004Vt5tIAC,Global Affairs Canada,Affaires mondiales Canada
+Immigration Refugees and Citizenship Canada,001I9000004Vt5wIAC,"Immigration, Refugees and Citizenship Canada","Immigration, Réfugiés et Citoyenneté Canada"
+Public Services and Procurement Canada,001I9000004Vt6EIAS,Public Services and Procurement Canada,Services publics et Approvisionnement Canada
+Environment and Climate Change Canada,001I9000004Vt5pIAC,Environment and Climate Change Canada,Environnement et Changement climatique Canada
+"""Innovation, Science and Economic Development Canada""",001I9000004Vt5zIAC,"Innovation, Science and Economic Development Canada","Innovation, Sciences et Développement économique Canada"
+Innovation Science and Economic Development Canada,001I9000004Vt5zIAC,"Innovation, Science and Economic Development Canada","Innovation, Sciences et Développement économique Canada"
+"""Immigration, Refugees and Citizenship Canada""",001I9000004Vt5wIAC,"Immigration, Refugees and Citizenship Canada","Immigration, Réfugiés et Citoyenneté Canada"
+Department of Justice Canada,001I9000004Vt5mIAC,Department of Justice Canada,Ministère de la Justice Canada
+Office of the Auditor General,001I900000503zhIAA,Office of the Auditor General,Le Bureau du vérificateur général du Canada
+Taxpayers' Ombudsperson (Office of the),001OO00000Ct4gqYAB,Office of the Taxpayers' Ombudsperson,Bureau de l'ombudsman des contribuables
+"Canadian Digital Service,Employment and Social Development Canada",001I9000004Vt5oIAC,Employment and Social Development Canada,Emploi et Développement social Canada
+"Canada Revenue Agency,External to government",001I9000004Vt5ZIAS,Canada Revenue Agency,Agence du revenu du Canada
+"Employment and Social Development Canada,Canadian Digital Service",001I9000004Vt5oIAC,Employment and Social Development Canada,Emploi et Développement social Canada
+Agriculture and Agri Food Canada,001I9000004pwojIAA,Agriculture and Agri Food Canada,Agriculture et Agroalimentaire Canada
+Department of Finance Canada,001I9000004Vt5lIAC,Department of Finance Canada,Ministère des Finances Canada
+Canada Mortgage and Housing Corporation,001I9000005063XIAQ,Canada Mortgage and Housing Corporation,Société canadienne d'hypothèques et de logement
+Government of British Columbia (BC),001I9000004cImXIAU,Government of British Columbia (BC),Gouvernement de la Colombie-Britannique
+Natural Sciences and Engineering Research Council of Canada,001I9000004Vt64IAC,Natural Sciences and Engineering Research Council of Canada,Conseil de recherches en sciences naturelles et en génie du Canada
+Canadian Digital Service,001I9000004Vt5oIAC,Employment and Social Development Canada,Emploi et Développement social Canada
+Canadian Digital Service / Service numérique canadien,001I9000004Vt5oIAC,Employment and Social Development Canada,Emploi et Développement social Canada
+Copyright Board Canada / Commission du droit d'auteur Canada,001I900000503tPIAQ,Copyright Board Canada,Commission du droit d'auteur du Canada
+National Defence / Défense nationale,001I9000004Vt61IAC,National Defence,Défense nationale et les Forces armées canadiennes
+Service Canada,001I90000050aMNIAY,Service Canada,Service Canada
+Canada Economic Development for Quebec Regions / Développement économique Canada pour les régions du Québec,001I9000004Vt5YIAS,Canada Economic Development for Quebec Regions,Développement économique Canada pour les régions du Québec
+Veterans Affairs Canada / Anciens Combattants Canada,001I9000004Vt6LIAS,Veterans Affairs Canada,Anciens combattants Canada
+Office of the Auditor General / Le Bureau du vérificateur général du Canada,001I900000503zhIAA,Office of the Auditor General,Le Bureau du vérificateur général du Canada
+Superintendent of Financial Institutions Canada (Office of the) / Bureau du surintendant des institutions financières Canada,001I9000005DXSKIA4,Office of the Superintendent of Financial Institutions,Bureau du surintendant des institutions financières
+Accessibility Standards Canada / Normes d'accessibilité Canada,001I9000004zOqhIAE,Accessibility Standards Canada,Normes d'accessibilité Canada
+Public Health Agency of Canada / Agence de la santé publique du Canada,001I9000004Vt6AIAS,Public Health Agency of Canada,Agence de la santé publique du Canada
+Fisheries and Oceans Canada / Pêches et Océans Canada,001I9000004Vt5sIAC,Fisheries and Oceans Canada,Pêches et Océans Canada
+Refugees and Citizenship Canada / Immigration,001I9000004Vt5wIAC,"Immigration, Refugees and Citizenship Canada","Immigration, Réfugiés et Citoyenneté Canada"
+Science and Economic Development Canada / Innovation,001I9000004Vt5zIAC,"Innovation, Science and Economic Development Canada","Innovation, Sciences et Développement économique Canada"
+National Battlefields Commission / Commission des champs de bataille nationaux,001I9000005X2DjIAK,The National Battlefields Commission,Commission des champs de bataille nationaux
+Public Service Commission of Canada / Commission de la fonction publique du Canada,001I9000004Vt6DIAS,Public Service Commission of Canada,Commission de la fonction publique du Canada
+"Health Canada / Santé Canada,Public Health Agency of Canada / Agence de la santé publique du Canada",001I9000004Vt5uIAC,Health Canada,Santé Canada
+Canada School of Public Service / École de la fonction publique du Canada,001I9000004Vt5aIAC,Canada School of Public Service,École de la fonction publique du Canada
+National Defence / Défense nationale et les Forces armées canadiennes,001I9000004Vt61IAC,National Defence,Défense nationale et les Forces armées canadiennes
+Pacific Economic Development Canada / Développement économique Canada pour le Pacifique,001I90000050ZenIAE,Pacific Economic Development Canada,Développement économique Canada pour le Pacifique
+Agriculture and Agri Food Canada / Agriculture et Agroalimentaire Canada,001I9000004pwojIAA,Agriculture and Agri Food Canada,Agriculture et Agroalimentaire Canada
+Department of Justice Canada / Ministère de la Justice Canada,001I9000004Vt5mIAC,Department of Justice Canada,Ministère de la Justice Canada
+Indigenous Services Canada / Services aux Autochtones Canada,001I900000504eXIAQ,Indigenous Services Canada,Services aux Autochtones Canada
+Natural Sciences and Engineering Research Council of Canada / Conseil de recherches en sciences naturelles et en génie du Canada,001I9000004Vt64IAC,Natural Sciences and Engineering Research Council of Canada,Conseil de recherches en sciences naturelles et en génie du Canada
+Canadian Heritage / Patrimoine canadien,001I9000004Vt5dIAC,Canadian Heritage,Patrimoine canadien
+Taxpayers' Ombudsperson (Office of the) / Bureau de l'ombudsman des contribuables,001OO00000Ct4gqYAB,Office of the Taxpayers' Ombudsperson,Bureau de l'ombudsman des contribuables
+Parole Board of Canada / Commission des libérations conditionnelles du Canada,001I900000504ZTIAY,Parole Board of Canada,Commission des libérations conditionnelles du Canada
+Canada Energy Regulator / Régie de l'énergie du Canada,001I9000005tFjAIAU,Canada Energy Regulator,Régie de l'énergie du Canada
+Public Safety Canada / Sécurité publique Canada,001I9000004Vt6CIAS,Public Safety Canada,Sécurité publique Canada
+treasy,001I9000004Vt6KIAS,Treasury Board of Canada Secretariat,Secrétariat du Conseil du Trésor du Canada
+Veterans Affairs Canada / Anciens combattants Canada,001I9000004Vt6LIAS,Veterans Affairs Canada,Anciens combattants Canada
+"Canada Border Services Agency / Agence des services frontaliers du Canada,Treasury Board of Canada Secretariat / Secrétariat du Conseil du Trésor du Canada",001I9000004Vt5XIAS,Canada Border Services Agency,Agence des services frontaliers du Canada
+Department of Finance Canada / Ministère des Finances Canada,001I9000004Vt5lIAC,Department of Finance Canada,Ministère des Finances Canada
+CAS,001I9000004Vt5kIAC,Courts Administration Service,Service administratif des tribunaux judiciaires
+ACOA,001I9000004Vt5WIAS,Atlantic Canada Opportunities Agency,Agence de promotion économique du Canada atlantique
+CAF,001I9000004Vt61IAC,National Defence,Défense nationale et les Forces armées canadiennes
+CCCS,001I9000004zLveIAE,Communications Security Establishment Canada,Centre de la sécurité des télécommunications Canada
+CCOHS,001I900000503ncIAA,Canadian Centre for Occupational Health and Safety,Centre canadien d'hygiène et de sécurité au travail
+CDC,001I9000005064zIAA,Canadian Dairy Commission,Commission canadienne du lait
+CEDQ,001I9000004Vt5YIAS,Canada Economic Development for Quebec Regions,Développement économique Canada pour les régions du Québec
+CER,001I9000005tFjAIAU,Canada Energy Regulator,Régie de l'énergie du Canada
+CFIA,001I9000004Vt5bIAC,Canadian Food Inspection Agency,Agence canadienne d'inspection des aliments
+CGC,001I9000004Vt5cIAC,Canadian Grain Commission,Commission canadienne des grains
+CHRC,001I9000004Vt5eIAC,Canadian Human Rights Commission,Commission canadienne des droits de la personne
+CICS,001OO00000IclDKYAZ,Canadian Intergovernmental Conference Secretariat,Secrétariat des conférences intergouvernementales canadiennes
+CIHR,001I900000503mHIAQ,Canadian Institutes of Health Research,Instituts de recherche en santé du Canada
+CIRNAC,001I9000004Vt5xIAC,Crown-Indigenous Relations and Northern Affairs Canada,Relations Couronne-Autochtones et Affaires du Nord Canada
+Copyright Board,001I900000503tPIAQ,Copyright Board Canada,Commission du droit d'auteur du Canada
+"CSC, PBC",001I900000503m9IAA,Correctional Service Canada,Service correctionnel Canada
+CSPS,001I9000004Vt5aIAC,Canada School of Public Service,École de la fonction publique du Canada
+DFO,001I9000004Vt5sIAC,Fisheries and Oceans Canada,Pêches et Océans Canada
+EDC,001I900000503nDIAQ,Export Development Canada,Exportation et développement Canada
+FBCL,001I9000004Vt6JIAS,Transport Canada,Transports Canada
+FCAS,001I900000503tyIAA,Financial Consumer Agency of Canada,Agence de la consommation en matière financière du Canada
+FINTRAC,001I9000004Vt5rIAC,Financial Transactions and Reports Analysis Centre of Canada,Centre d'analyse des opérations et déclarations financières du Canada
+IAAC,001I9000005DbFCIA0,Impact Assessment Agency of Canada,Agence d’évaluation d’impact du Canada
+IRB,001I9000004Vt5vIAC,Immigration and Refugee Board of Canada,Commission de l'immigration et du statut de réfugié du Canada
+Justice,001I9000004Vt5mIAC,Department of Justice Canada,Ministère de la Justice Canada
+NCC Ombudsman,001I9000004Vt5mIAC,Department of Justice Canada,Ministère de la Justice Canada
+NFB,001I900000503gTIAQ,National Film Board,L'office National Du Film Du Canada
+NSERC,001I9000004Vt64IAC,Natural Sciences and Engineering Research Council of Canada,Conseil de recherches en sciences naturelles et en génie du Canada
+Office of the Commissioner of Lobbying,001I9000004Vt65IAC,Office of the Commissioner of Lobbying of Canada,Commissariat au lobbying du Canada
+Office of the Commissioner of Official Languages,001I9000004Vt66IAC,Office of the Commissioner of Official Languages,Commissariat aux langues officielles
+Office of the Public Sector Integrity Commissioner,001OO00000HzMoJYAV,Office of the Public Sector Integrity Commissioner of Canada,Commissariat à l'intégrité du secteur public du Canada
+OPC,001I900000504b0IAA,Offices of the Information and Privacy Commissioners of Canada,Les Commissariats à l’information et à la protection de la vie privée du Canada
+OSFI,001I9000005DXSKIA4,Office of the Superintendent of Financial Institutions,Bureau du surintendant des institutions financières
+Patented Medicine Prices Review Board,001OO000006vSnJYAU,Patented Medicine Prices Review Board Canada,Conseil d'examen du prix des médicaments brevetés
+PCA,001I9000004Vt67IAC,Parks Canada,Parcs Canada
+PrairiesCan,001I9000004Vt68IAC,Prairies Economic Development Canada,Développement économique Canada pour les Prairies
+PrairiesCan and PacifiCan,001I9000004Vt68IAC,Prairies Economic Development Canada,Développement économique Canada pour les Prairies
+RMC,001I9000004Vt61IAC,National Defence,Défense nationale et les Forces armées canadiennes
+SSC,001I9000004Vt6HIAS,Shared Services Canada,Services partagés Canada
+SSHRC,001I900000503tgIAA,Social Sciences and Humanities Research Council,Conseil de recherches en sciences humaines
+Veterans Ombud,001I900000505KfIAI,Veterans Review and Appeal Board,Tribunal des anciens combattants révision et appel
+WGEC,001I9000004zOAzIAM,Women and Gender Equality Canada,Femmes et Égalité des genres Canada
+OSGG,001OO00000AhiwAYAR,Office of the Secretary to the Governor General,Bureau du secrétaire du gouverneur général

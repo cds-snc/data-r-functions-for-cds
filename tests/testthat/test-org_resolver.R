@@ -12,7 +12,7 @@ test_that("Table is formed as expected", {
   # At _least_ as many rows as we started with
   expect_gte(
     nrow(org_resolver),
-    789
+    911
   )
 
   # Six columns
@@ -33,3 +33,6 @@ test_that("Table is formed as expected", {
   )
 
 })
+
+
+

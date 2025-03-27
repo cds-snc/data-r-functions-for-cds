@@ -83,5 +83,5 @@ orgs <- orgs_cds %>%
   bind_rows(orgs)
 
 
-orgs$identifier <- normalize_names(orgs$identifier)
+orgs$identifier <- normalize_name(orgs$identifier)
 orgs <- distinct(orgs)
