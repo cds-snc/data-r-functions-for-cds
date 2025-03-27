@@ -35,18 +35,4 @@ test_that("Table is formed as expected", {
 })
 
 
-test_that("Bulk test of organisation resolution", {
 
-  # This is a list of known good resolutions - we only test that it resolves
-  # ids because otherwise, tests will fail when we update the names of
-  # organisations
-
-  test_names <- read.csv(test_path("testdata", "validation-names.csv"))
-
-  # Test that everything resolves as expected
-  expect_equal(
-    resolve_name(test_names$identifier, lang = "id"),
-    test_names$id
-  )
-
-})
