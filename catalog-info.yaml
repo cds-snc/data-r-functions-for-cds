@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: data-r-functions-for-cds
+  description: An R package of functions that make doing CDS-style analyses easier
+  labels:
+    license: MIT
+spec:
+  type: website
+  lifecycle: experimental
+  owner: data-practitioners
