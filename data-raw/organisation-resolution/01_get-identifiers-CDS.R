@@ -1,5 +1,3 @@
-library(tidyverse)
-
 # List of organization identifiers and how to resolve them
 # id: canonical CDS unique ID for an organization
 # identifier: the name or string we want to resolve to an ID
