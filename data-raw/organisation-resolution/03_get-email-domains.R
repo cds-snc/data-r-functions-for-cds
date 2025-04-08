@@ -165,7 +165,7 @@ wikipedia_domains <- tribble(
   "grainscanada.gc.ca", "001I9000004Vt5cIAC",
   "cse-cst.gc.ca", "001I9000004zLveIAE",
   "csc-scc.gc.ca", "001I900000503m9IAA",
-  "dfo-mp.gc.ca", "001I9000004Vt5sIAC",
+  "dfo-mpo.gc.ca", "001I9000004Vt5sIAC",
   "international.gc.ca", "001I9000004Vt5tIAC",
   "pacifican.gc.ca", "001I90000050ZenIAE",
   "tbs-sct.gc.ca", "001I9000004Vt6KIAS",
@@ -235,7 +235,19 @@ missing_domains <- tribble(
   "priv.gc.ca", "001I900000504b0IAA",
   "ppsc-sppc.gc.ca", "001I9000004Vt6BIAS",
   "oci-bec.gc.ca", "001OO00000HzZtYYAV",
-  "viarail.ca", "001I90000050aLyIAI"
+  "viarail.ca", "001I90000050aLyIAI",
+  "cadets.gc.ca", missing_identifier,
+  "cbsa.gc.ca", "001I9000004Vt5XIAS",
+  "dcc-cdc.gc.ca", "001I9000004Vt61IAC",
+  "ecn.forces.gc.ca", "001I9000004Vt61IAC",
+  "fja-cmf.gc.ca", missing_identifier,
+  "nrcan.gc.ca", "001I9000004Vt63IAC",
+  "ombud.gc.ca", missing_identifier,
+  "ombudsman-veterans.gc.ca", missing_identifier,
+  "pwgsc.gc.ca", "001I9000004Vt6EIAS",
+  "sen.parl.gc.ca", "001I9000005DbCwIAK",
+  "smtp.gc.ca", "001I90000050a3fIAA",
+  "sopf-cidphn.gc.ca", missing_identifier
 ) %>%
   mutate(source = "Manual/Email Domains")
 
