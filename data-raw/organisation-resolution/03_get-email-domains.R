@@ -107,7 +107,8 @@ manual_fixes <- tribble(
   "asc-nac.gc.ca", "001I9000004zOqhIAE",
   "cwa-aec.gc.ca", missing_identifier,
   "parl.gc.ca", "001I9000005DbCwIAK"
-)
+) %>%
+  mutate(source = "Manual/Email Domains")
 
 geds_domains <- tibble(
   identifier = normalize_name(domains$domain),
