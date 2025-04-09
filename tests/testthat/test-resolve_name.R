@@ -24,11 +24,6 @@ test_that("Names resolve as expected", {
     "001I9000004Vt63IAC"
   )
 
-  expect_warning(
-    resolve_name("Department of Unicorns"),
-    "couldn't be matched"
-  )
-
   expect_true(
     is.na(suppressWarnings(resolve_name("Department of Unicorns")))
   )
@@ -37,6 +32,19 @@ test_that("Names resolve as expected", {
     suppressWarnings(resolve_name(c("ESDC", "Department of Unicorns", "IRCC"))),
     c("Employment and Social Development Canada", NA, "Immigration, Refugees and Citizenship Canada")
   )
+})
+
+test_that("Warnings appear as expected", {
+
+  expect_warning(
+    resolve_name("Department of Unicorns"),
+    "couldn't be matched"
+  )
+
+  expect_no_warning(
+    resolve_name("Department of Unicorns", warn = FALSE)
+  )
+
 })
 
 
