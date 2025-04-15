@@ -1,7 +1,7 @@
 Package: cds
 Type: Package
 Title: R Functions for the Canadian Digital Service
-Version: 0.1.2
+Version: 0.2.0
 Authors@R: c(
   person(
     given = "Colin", family = "Douglas", 
