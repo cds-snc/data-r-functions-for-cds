@@ -4,3 +4,5 @@
 data-raw
 ^\.github$
 README.html
+catalog-info.yaml
+org-domains.csv

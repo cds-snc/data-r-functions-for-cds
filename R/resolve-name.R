@@ -2,6 +2,7 @@
 #'
 #' @param x a character vector of identifiers
 #' @param lang language to return organisations in, one of 'en', 'fr', or 'id' (for CDS-specific unique department IDs)
+#' @param warn warn when an identifier can't be resolved
 #'
 #' @return a character vector of official organisation names
 #' @examples
@@ -20,7 +21,7 @@
 #'
 #' @export
 
-resolve_name <- function(x, lang = "en") {
+resolve_name <- function(x, lang = "en", warn = TRUE) {
 
   nlang <- normalize_name(lang)
   org_resolver <- cds::org_resolver  # Resolve CMD check error
@@ -43,10 +44,10 @@ resolve_name <- function(x, lang = "en") {
   o <- conversion_vector[x]
   names(o) <- input
 
-  if (sum(is.na(o)) > 0) {
+  if (sum(is.na(o)) > 0 & warn) {
     warning(
       sum(is.na(o)),
-      " names couldn't be matched - returning NA for:\n   \"",
+      " names couldn't be matched:\n   \"",
       paste(input[is.na(o)], collapse = "\"\n   \""),
       "\""
       )

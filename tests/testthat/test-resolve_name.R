@@ -24,11 +24,6 @@ test_that("Names resolve as expected", {
     "001I9000004Vt63IAC"
   )
 
-  expect_warning(
-    resolve_name("Department of Unicorns"),
-    "couldn't be matched"
-  )
-
   expect_true(
     is.na(suppressWarnings(resolve_name("Department of Unicorns")))
   )
@@ -37,6 +32,19 @@ test_that("Names resolve as expected", {
     suppressWarnings(resolve_name(c("ESDC", "Department of Unicorns", "IRCC"))),
     c("Employment and Social Development Canada", NA, "Immigration, Refugees and Citizenship Canada")
   )
+})
+
+test_that("Warnings appear as expected", {
+
+  expect_warning(
+    resolve_name("Department of Unicorns"),
+    "couldn't be matched"
+  )
+
+  expect_no_warning(
+    resolve_name("Department of Unicorns", warn = FALSE)
+  )
+
 })
 
 
@@ -106,6 +114,18 @@ test_that("Bulk test of organisation resolution", {
   # organisations
 
   test_names <- read.csv(test_path("testdata", "validation-names.csv"))
+
+  # Make sure the list didn't get truncated
+  expect_gte(
+    nrow(test_names),
+    539
+  )
+
+  # Make sure there's no missing validation data
+  expect_equal(
+    nrow(test_names),
+    sum(complete.cases(test_names))
+  )
 
   # Test that everything resolves as expected
   expect_equal(

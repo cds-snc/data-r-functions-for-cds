@@ -1,6 +1,6 @@
 library(tidyverse)
 
-# This script assumes you've already run scripts 01-03 to create the `orgs` table.
+# This script assumes you've already run scripts 01-04 to create the `orgs` table.
 
 # This script creates a table to help resolve arbitrary identifiers into
 # official "CDS-style" names. It creates a table with the following columns:

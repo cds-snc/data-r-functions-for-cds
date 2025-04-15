@@ -1,5 +1,3 @@
-library(tidyverse)
-
 # Occasionally, we run into a name that isn't able to be matched automatically.
 # These are typically things like:
 # * Non-standard acronyms (e.g., NRCan for Natural Resources Canada)
@@ -165,12 +163,33 @@ leftovers_enterprise <- tribble(
   )
 
 
+
+# Left from GEDS dump -----------------------------------------------------
+
+leftovers_geds_names <- tribble(
+  ~ identifier, ~ resolves_to,
+  "Atomic Energy of Canada Limited", "001I900000505PuIAI",
+  "Canada Agricultural Review Tribunal", missing_identifier,
+  "Canada Council for the Arts", missing_identifier,
+  "Housing, Infrastructure and Communities Canada", "001I9000004Vt5yIAC",
+  "Innovation, Science and Economic Development Canada - Innovation, Sciences et Développement économique Canada", "001I9000004Vt5zIAC",
+  "National Arts Centre", missing_identifier,
+  "Office of the Procurement Ombud", "001I90000050aLkIAI",
+  "The Federal Bridge Corporation Limited", missing_identifier,
+) %>%
+  mutate(
+    source = "GEDS Extract/Org Names",
+    identifier = normalize_name(identifier)
+  )
+
 orgs <- bind_rows(
   orgs,
   leftovers_gcforms_demos,
   leftovers_gcforms_forms,
   leftovers_gcds,
-  leftovers_enterprise
+  leftovers_enterprise,
+  leftovers_geds_names,
+  missing_domains
 ) %>%
   distinct(identifier, .keep_all = TRUE)
 

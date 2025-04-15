@@ -1,6 +1,3 @@
-library(tidyverse)
-library(fuzzyjoin)
-
 # There are lots of other sources of identifiers as well. Here, we pull in other
 # "structured" identifiers (i.e., tables) are use them as a basis for more
 # linking. We use the identifiers we've already calculated (from the `01` script)
@@ -76,7 +73,7 @@ leftovers <- tribble(
   "Farm Products Council of Canada", missing_identifier,
   "Office of the Governor General's Secretary", missing_identifier,
   "Reg Specific Claims Tribunal", missing_identifier,
-  "House of Commons", missing_identifier,
+  "House of Commons", "001I9000005DbCwIAK",
   "Canadian International Development Agency", missing_identifier,
   "International Joint Commission", missing_identifier,
   "Public Sector Integrity Commissioner of Canada (Office of the)", "001OO00000HzMoJYAV",
@@ -86,7 +83,7 @@ leftovers <- tribble(
   "Justice Canada (Department of)", "001I9000004Vt5mIAC",
   "The Leaders' Debates Commission",  missing_identifier,
   "Library of Parliament",  missing_identifier,
-  "House of Commons (Members)",  missing_identifier,
+  "House of Commons (Members)",  "001I9000005DbCwIAK",
   "Northern Pipeline Agency",  missing_identifier,
   "National Security Intelligence Review Agency",  missing_identifier,
   "Natural Sciences and Engineering Research Canada",  "001I9000004Vt64IAC",
@@ -94,13 +91,13 @@ leftovers <- tribble(
   "Office of the Correctional Investigator",  missing_identifier,
   "Public Safety", "001I9000004Vt6CIAS",
   "Canadian Polar Commission", "001I9000005X2mZIAS",
-  "Parliamentary Protective Service",  missing_identifier,
+  "Parliamentary Protective Service",  "001I9000005DbCwIAK",
   "Public Servants Disclosure Protection Tribunal",  missing_identifier,
   "Canadian Human Rights Tribunal", "001I9000004Vt5eIAC",
   "Registry of the Competition Tribunal",  missing_identifier,
   "RCMP External Review Committee",  missing_identifier,
   "Federal Public Sector Labour Relations and Employment Board",  missing_identifier,
-  "Senate of Canada",  missing_identifier,
+  "Senate of Canada", "001I9000005DbCwIAK",
   "Superintendent of Financial Institutions Canada (Office of the)",  missing_identifier,
   "Security Intelligence Review Committee",  missing_identifier,
   "Communications Security Establishment Commissioner (Office of the)", "001OO00000GgH3GYAV",
