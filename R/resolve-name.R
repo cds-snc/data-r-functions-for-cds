@@ -2,6 +2,7 @@
 #'
 #' @param x a character vector of identifiers
 #' @param lang language to return organisations in, one of 'en', 'fr', or 'id' (for CDS-specific unique department IDs)
+#' @param warn warn when an identifier can't be resolved
 #'
 #' @return a character vector of official organisation names
 #' @examples

@@ -4,12 +4,14 @@
 \alias{resolve_name}
 \title{Resolve a name to an official organisation name}
 \usage{
-resolve_name(x, lang = "en")
+resolve_name(x, lang = "en", warn = TRUE)
 }
 \arguments{
 \item{x}{a character vector of identifiers}
 
 \item{lang}{language to return organisations in, one of 'en', 'fr', or 'id' (for CDS-specific unique department IDs)}
+
+\item{warn}{warn when an identifier can't be resolved}
 }
 \value{
 a character vector of official organisation names
