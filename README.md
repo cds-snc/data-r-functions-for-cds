@@ -72,6 +72,18 @@ Warning message:
 
 ```
 
+### Requesting Additional Matches
+Some matches cannot be made programmatically, and have to be entered manually.
+The CSV file [`manual-matches.csv`](https://github.com/cds-snc/data-r-functions-for-cds/blob/main/data-raw/organisation-resolution/data/manual-matches.csv) contains matches that aren't necessarily intuitive.
+Each line in the CSV has the following fields:
+
+  * `identifier` is the string you want to match. It is eventually normalized and not case sensitive
+  * `resolves_to` is a unique identifier from the [`cds-snc/gc-organisations`](https://www.github.com/cds-snc/gc-organisations) repository
+    * Use "001I9000005Ho3zIAC" for departments not listed in the gc-organisations repo
+  * `source` is where you first found this acronym. It is optional but helpful.
+
+Pull requests are always welcome, generally, but specifically for this file.
+
 ## Package Tests
 
 Tests for this package are included, built in the `testthat` framework. To run

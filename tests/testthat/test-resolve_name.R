@@ -113,24 +113,24 @@ test_that("Bulk test of organisation resolution", {
   # ids because otherwise, tests will fail when we update the names of
   # organisations
 
-  test_names <- read.csv(test_path("testdata", "validation-names.csv"))
+  validation_names <- read.csv(test_path("testdata", "validation-names.csv"))
 
   # Make sure the list didn't get truncated
   expect_gte(
-    nrow(test_names),
+    nrow(validation_names),
     539
   )
 
   # Make sure there's no missing validation data
   expect_equal(
-    nrow(test_names),
-    sum(complete.cases(test_names))
+    nrow(validation_names),
+    sum(complete.cases(validation_names))
   )
 
   # Test that everything resolves as expected
   expect_equal(
-    resolve_name(test_names$identifier, lang = "id"),
-    test_names$id
+    resolve_name(validation_names$identifier, lang = "id"),
+    validation_names$id
   )
 
 })
