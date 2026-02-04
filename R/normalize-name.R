@@ -54,6 +54,10 @@ normalize_name <- function(x) {
   o <- str_replace_all(o, "[/\\(\\)&',\":]", " ")    # Replace punctuation with a space
   o <- str_squish(o)                                 # Remove unnecessary whitespace
 
+  # Fix some common typos
+  o <- str_replace_all(o, "agnecy|agancy|agincy|agensey|ageny", "agency")
+  o <- str_replace_all(o, "deprtment|departmant|deparment|depatment", "department")
+
   o
 }
 
