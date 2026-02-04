@@ -35,7 +35,7 @@ manual_matches <- read_csv(
     source = col_character()
   )) %>%
   mutate(identifier = normalize_name(identifier)) %>%
-  replace_na(list(identifier = "001I9000005Ho3zIAC"))  # Replace missing identifiers with "Department not listed"
+  replace_na(list(resolves_to = "001I9000005Ho3zIAC"))  # Replace missing identifiers with "Department not listed"
 
 orgs <- bind_rows(orgs, manual_matches) %>%
   distinct(identifier, .keep_all = TRUE)
