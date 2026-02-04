@@ -1,7 +1,7 @@
 Package: cds
 Type: Package
 Title: R Functions for the Canadian Digital Service
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: c(
   person(
     given = "Colin", family = "Douglas", 
@@ -22,8 +22,7 @@ Imports:
 Depends: 
     R (>= 4.0)
 Suggests: 
-    testthat (>= 3.0),
-    fuzzyjoin (>= 0.1.6)
+    testthat (>= 3.0)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
