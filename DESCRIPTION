@@ -22,8 +22,7 @@ Imports:
 Depends: 
     R (>= 4.0)
 Suggests: 
-    testthat (>= 3.0),
-    fuzzyjoin (>= 0.1.6)
+    testthat (>= 3.0)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
