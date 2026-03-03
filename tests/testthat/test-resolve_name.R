@@ -38,11 +38,27 @@ test_that("Warnings appear as expected", {
 
   expect_warning(
     resolve_name("Department of Unicorns"),
-    "couldn't be matched"
+    "1 names couldn't be matched"
+  )
+
+  # Correct warning counts show up
+  expect_warning(
+    resolve_name(c("Department of Unicorns", "Department of Fairies", NA_character_)),
+    "2 names couldn't be matched"
+  )
+
+  expect_warning(
+    resolve_name(c("Department of Unicorns", "Department of Fairies")),
+    "2 names couldn't be matched"
   )
 
   expect_no_warning(
     resolve_name("Department of Unicorns", warn = FALSE)
+  )
+
+  # Don't warn when input is NA, even when warnings are TRUE
+  expect_no_warning(
+    resolve_name(NA_character_, warn = TRUE)
   )
 
 })

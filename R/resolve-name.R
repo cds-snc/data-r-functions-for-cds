@@ -44,11 +44,16 @@ resolve_name <- function(x, lang = "en", warn = TRUE) {
   o <- conversion_vector[x]
   names(o) <- input
 
-  if (sum(is.na(o)) > 0 & warn) {
+
+  # Warn about names that couldn't be resolved
+  # Ignore inputted NAs, they are expected to return NA themselves
+
+  unresolved_names <- o[is.na(o) & !is.na(names(o))]
+  if (length(unresolved_names) > 0 & warn) {
     warning(
-      sum(is.na(o)),
+      length(unresolved_names),
       " names couldn't be matched:\n   \"",
-      paste(input[is.na(o)], collapse = "\"\n   \""),
+      paste0(names(unresolved_names), collapse = "\"\n   \""),
       "\""
       )
   }
