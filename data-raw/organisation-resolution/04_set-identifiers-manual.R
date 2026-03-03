@@ -22,21 +22,21 @@
 # "AAFC","001I9000004pwojIAA","Airtable/GC Forms"
 
 
-# This identifier was first observed in an Airtable published by GC Forms
-# The line indications that the abbreviation "AAFC" matches the organisation ID "001I9000004pwojIAA"
-# Looking this ID up in the `cds-snc/gc-organisations` repo shows that this ID means "Agriculture and Agri Food Canada"
+manual_matches_path <- "data-raw/organisation-resolution/data/manual-matches.csv"
 
-manual_matches <- read_csv(
-  "data-raw/organisation-resolution/data/manual-matches.csv",
-  col_names = TRUE,
-  cols(
-    identifier = col_character(),
-    resolves_to = col_character(),
-    source = col_character()
-  )) %>%
-  mutate(identifier = normalize_name(identifier)) %>%
-  replace_na(list(resolves_to = "001I9000005Ho3zIAC"))  # Replace missing identifiers with "Department not listed"
+if (file.exists(manual_matches_path)) {
+  manual_matches <- read_csv(
+    manual_matches_path,
+    col_names = TRUE,
+    cols(
+      identifier = col_character(),
+      resolves_to = col_character(),
+      source = col_character()
+    )) %>%
+    mutate(identifier = normalize_name(identifier)) %>%
+    replace_na(list(resolves_to = "001I9000005Ho3zIAC"))  # Replace missing identifiers with "Department not listed"
 
-orgs <- bind_rows(orgs, manual_matches) %>%
-  distinct(identifier, .keep_all = TRUE)
+  orgs <- bind_rows(orgs, manual_matches) %>%
+    distinct(identifier, .keep_all = TRUE)
+}
 

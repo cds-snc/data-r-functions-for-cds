@@ -84,6 +84,11 @@ Each line in the CSV has the following fields:
 
 Pull requests are always welcome, generally, but specifically for this file.
 
+After making additions to the `manual-matches.csv` file, you must rebuild the
+the resolver table. You can do this by running the script at the path
+`data-raw/organisation-resolution/00_run-all.R`
+
+
 ## Package Tests
 
 Tests for this package are included, built in the `testthat` framework. To run

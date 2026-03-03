@@ -17,6 +17,7 @@ library(tidyverse)
 
 org_resolver <- left_join(orgs, org_names, by = c("resolves_to" = "id"))
 
+org_resolver <- distinct(org_resolver, identifier, .keep_all = TRUE)
 
 usethis::use_data(org_resolver, overwrite = TRUE)
 
