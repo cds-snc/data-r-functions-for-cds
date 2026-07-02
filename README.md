@@ -44,6 +44,39 @@ palmerpenguins::penguins |>
 
 ![](data-raw/readme/penguins.png "Comparison of penguin's bill length and bill depth, in beautiful CDS-recommended colors")
 
+The `cds::colors$brand` palette (and its `brand_base`/`brand_action`/
+`brand_grounding` subsets) mirrors the current CDS brand guide, and is
+recommended for new graphs over the legacy palettes above.
+
+```r
+scale_color_manual(values = cds::colors$brand_base)
+```
+
+## Report Branding
+
+Two helpers add CDS branding to a rendered plot:
+
+```r
+library(ggplot2)
+
+my_plot <- ggplot(mpg, aes(x = hwy, y = cty)) +
+  geom_point() +
+  theme_cds()
+
+my_plot |>
+  add_watermark(report_name = "My Report") |>
+  add_cds_logo()
+```
+
+* `cds::add_cds_logo()` overlays the bilingual CDS/SNC logo in a corner of the
+  plot (default: top-right). Set `canada_wordmark = TRUE` for the square +
+  Canada wordmark lockup.
+* `cds::add_watermark()` adds a light caption in the bottom-right corner with
+  an optional report name and a date (defaults to today). When `report_name`
+  is omitted, only the date is shown.
+
+Both functions return a `cowplot` drawing rather than a `ggplot` object, so
+apply them last, after any other `ggplot2` layers or themes.
 
 ## Organisation Name Resolution
 

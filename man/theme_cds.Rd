@@ -4,18 +4,23 @@
 \alias{theme_cds}
 \title{CDS ggplot2 Theme}
 \usage{
-theme_cds()
+theme_cds(base_size = 11, base_family = cds_font)
+}
+\arguments{
+\item{base_size}{base font size, in points}
+
+\item{base_family}{base font family}
 }
 \value{
 theme() object that can be applied to ggplot objects
 }
 \description{
-CDS ggplot2 Theme
+theme_bw() in the CDS brand typeface (Source Sans 3), with Semibold titles.
+Falls back to the default sans font if the brand font could not be loaded.
 }
 \examples{
 library(ggplot2)
 my_plot <- ggplot(mpg, aes(x = hwy, y = cty))
-my_plot <- my_plot + theme_bw()  # Can layer multiple themes
 my_plot <- my_plot + theme_cds()
 
 }

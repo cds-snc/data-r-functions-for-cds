@@ -5,7 +5,7 @@
 \alias{colors}
 \title{CDS Colo(u)r Palettes}
 \format{
-An object of class \code{list} of length 5.
+An object of class \code{list} of length 9.
 }
 \usage{
 colors
@@ -16,7 +16,7 @@ A list of color vectors that makes using CDS color palettes easier.
 \examples{
 \dontrun{
   scale_color_manual(values = cds::colors$missions$dark)
-  scale_fill_manual(values = cds::colors$primary[c(1,2,7)])
+  scale_fill_manual(values = cds::colors$brand_base)
 }
 }
 \keyword{datasets}

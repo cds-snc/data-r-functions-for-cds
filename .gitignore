@@ -6,3 +6,4 @@
 README.html
 data-raw/organisation-resolution/data
 *.csv
+.DS_Store
