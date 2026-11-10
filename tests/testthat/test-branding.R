@@ -25,6 +25,17 @@ test_that("cds_logo_path() resolves to a bundled, existing file", {
   expect_true(file.exists(path_wordmark))
 })
 
+test_that("cds_logo_path() defaults to English and takes lang", {
+  expect_equal(basename(cds:::cds_logo_path()), "cds-snc.png")
+  expect_equal(basename(cds:::cds_logo_path(lang = "fr")), "snc-cds.png")
+  expect_equal(
+    basename(cds:::cds_logo_path(canada_wordmark = TRUE, lang = "fr")),
+    "FR_Square+CANADA.jpg"
+  )
+  expect_identical(cds:::cds_logo_path(), cds:::cds_logo_path())
+  expect_error(cds:::cds_logo_path(lang = "de"))
+})
+
 test_that("add_watermark() falls back to just the date when report_name is blank", {
   plot <- ggplot2::ggplot(mtcars, ggplot2::aes(x = mpg, y = wt)) + ggplot2::geom_point()
   watermarked <- suppressWarnings(add_watermark(plot, date = as.Date("2026-01-01")))

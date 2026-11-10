@@ -8,7 +8,8 @@ add_cds_logo(
   plot,
   position = c("top-right", "bottom-left", "top-left", "bottom-right", "all"),
   height = 0.13,
-  canada_wordmark = FALSE
+  canada_wordmark = FALSE,
+  lang = c("en", "fr")
 )
 }
 \arguments{
@@ -23,6 +24,9 @@ undistorted}
 
 \item{canada_wordmark}{if TRUE, use the square + Canada wordmark lockup
 instead of the plain CDS/SNC square}
+
+\item{lang}{"en" (default) for the English-first CDS/SNC mark, or "fr" for
+the French-first SNC/CDS mark}
 }
 \value{
 a cowplot drawing

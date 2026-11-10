@@ -6,31 +6,26 @@
 # base64-inlines) like any other figure - no external image file ends up
 # referenced by the HTML.
 #
-# The logo is the bilingual CDS/SNC mark; cds_logo_path() randomly returns the
-# English-first or French-first variant on each call, by design - so different
-# graphs in a report may show different languages, and a re-render may flip
-# them. This is cosmetic only and does not affect any data in the report.
+# The logo is the bilingual CDS/SNC mark. `lang` picks the variant: "en"
+# (default) for the English-first CDS/SNC mark, "fr" for the French-first
+# SNC/CDS mark.
 #
 # By default the plain CDS/SNC square is used; set canada_wordmark = TRUE for
 # the square + Canada wordmark lockup.
 
-# Randomly pick the English-first or French-first logo bundled with the
-# package, so graphs within a report may differ in language by design.
-# canada_wordmark picks the square + Canada wordmark lockup; otherwise the
-# plain CDS/SNC square.
-cds_logo_path <- function(canada_wordmark = FALSE) {
+# The English-first logo bundled with the package for lang "en", the
+# French-first one for "fr". canada_wordmark picks the square + Canada
+# wordmark lockup; otherwise the plain CDS/SNC square.
+cds_logo_path <- function(canada_wordmark = FALSE, lang = c("en", "fr")) {
+  lang <- match.arg(lang)
   variants <- if (canada_wordmark) {
-    c("EN_Square+CANADA.jpg", "FR_Square+CANADA.jpg")
+    c(en = "EN_Square+CANADA.jpg", fr = "FR_Square+CANADA.jpg")
   } else {
-    c("cds-snc.png", "snc-cds.png")
+    c(en = "cds-snc.png", fr = "snc-cds.png")
   }
-  present <- system.file("img", variants, package = "cds")
-  present <- present[nzchar(present)]
-  if (length(present) > 0) return(sample(present, 1))
-  stop(
-    "CDS logo not found (", paste(variants, collapse = " / "), ")",
-    call. = FALSE
-  )
+  path <- system.file("img", variants[[lang]], package = "cds")
+  if (nzchar(path)) return(path)
+  stop("CDS logo not found (", variants[[lang]], ")", call. = FALSE)
 }
 
 #' Add the CDS/SNC logo to a ggplot
@@ -46,6 +41,8 @@ cds_logo_path <- function(canada_wordmark = FALSE) {
 #'   undistorted
 #' @param canada_wordmark if TRUE, use the square + Canada wordmark lockup
 #'   instead of the plain CDS/SNC square
+#' @param lang "en" (default) for the English-first CDS/SNC mark, or "fr" for
+#'   the French-first SNC/CDS mark
 #'
 #' @return a cowplot drawing
 #' @export
@@ -60,8 +57,10 @@ add_cds_logo <- function(
       "all"
     ),
     height = 0.13,
-    canada_wordmark = FALSE) {
+    canada_wordmark = FALSE,
+    lang = c("en", "fr")) {
   position <- match.arg(position)
+  lang <- match.arg(lang)
 
   corners <- list(
     "top-right" = list(
@@ -102,7 +101,7 @@ add_cds_logo <- function(
   for (corner in placements) {
     result <- result +
       cowplot::draw_image(
-        cds_logo_path(canada_wordmark),
+        cds_logo_path(canada_wordmark, lang),
         x = corner$x, y = corner$y,
         hjust = corner$hjust, vjust = corner$vjust,
         halign = corner$halign,
